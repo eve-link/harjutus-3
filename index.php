@@ -43,20 +43,24 @@
   $fullName = "$firstName $lastName ";
   ?>
 
-<ul>
-  <?php 
-  echo 
- "<li>" . $student1 . "</li>
-  <li>" . $student2 . "</li>
-  <li>" . $student3 . "</li>
-  <li>" . $student4 . "</li>
-  <li>" . $student5 . "</li>"
-  ?>
+  <ul>
+    <?php 
+    echo 
+    "<li>" . $student1 . "</li>
+    <li>" . $student2 . "</li>
+    <li>" . $student3 . "</li>
+    <li>" . $student4 . "</li>
+    <li>" . $student5 . "</li>"
+    ?>
   </ul>
-
   <?php 
   echo $fullName;
-   ?>
+  ?>
+
+  <?php 
+  $test = "mingi tekst";
+  echo $test;
+  ?>
 
 
 </body>
