@@ -56,11 +56,51 @@
   <?php 
   echo $fullName;
   ?>
+  <br>
 
   <?php 
   $test = "mingi tekst";
   echo $test;
   ?>
+  <br>
+
+<?php 
+  $age = "22";
+  echo "Ma olen {$age}-ne aastane";
+ ?>
+
+<?php
+    $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+    $lower = strtolower($source);
+    echo "<p>{$lower}</p>";
+  ?>
+  <?php
+    $source2 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+    $upper = strtoupper($source2);
+    echo "<p>{$upper}</p>";
+  ?>
+  <?php
+    $source3 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+    $firstupper = ucfirst($source3);
+    echo "<p>{$firstupper}</p>";
+  ?>
+  <?php
+    $source3 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+    $firstupper = ucfirst($source3);
+    echo "<p>{$firstupper}</p>";
+  ?>
+  <?php
+    $source4 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+    $everyupper = ucwords($source4);
+    echo "<p>{$everyupper}</p>";
+  ?>
+  <?php
+    $source5 = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+    $textlenght = strlen($source5);
+    echo "<p>{$textlenght}</p>";
+  ?>
+
+<?php echo "A" . trim(" B C D E") . "F"; ?>
 
 
 </body>
