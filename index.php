@@ -38,6 +38,9 @@
   $student3 = "Marko";
   $student4 = "Heiko";
   $student5 = "Mihkel";
+  $firstName = "Eve";
+  $lastName = "Link";
+  $fullName = "$firstName $lastName ";
   ?>
 
 <ul>
@@ -50,6 +53,10 @@
   <li>" . $student5 . "</li>"
   ?>
   </ul>
+
+  <?php 
+  echo $fullName;
+   ?>
 
 
 </body>
