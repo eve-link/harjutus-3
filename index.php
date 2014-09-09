@@ -8,29 +8,48 @@
 <body> 
   <h2>Muutujad</h2>
 
-<?php
-    $variable = 10;
-    echo "<br>";
-?>
+  <?php
+  $variable = 10;
+  echo "<br>";
+  ?>
 
-<?php
-    $variable = 20;
-    echo $variable;
-?>
+  <?php
+  $variable = 20;
+  echo $variable;
+  ?>
 
-<h2>Strings</h2>
+  <h2>Stringid</h2>
 
-<?php echo "Hello world!"; ?>
-<br>
-<?php echo 'Hello world!';?>
-<br>
+  <?php echo "Hello world!"; ?>
+  <br>
+  <?php echo 'Hello world!';?>
+  <br>
 
-<?php 
+  <?php 
   $number = 24; 
   $number2 = 26;
   echo "2026";
- ?>
+  ?>
+  <h2>Nimekirja väljastamine muutujate ja stringide abi</h2>
 
+  <?php 
+  $student1 = "Anneli";
+  $student2 = "Ingrid";
+  $student3 = "Marko";
+  $student4 = "Heiko";
+  $student5 = "Mihkel";
+  ?>
+
+<ul>
+  <?php 
+  echo 
+ "<li>" . $student1 . "</li>
+  <li>" . $student2 . "</li>
+  <li>" . $student3 . "</li>
+  <li>" . $student4 . "</li>
+  <li>" . $student5 . "</li>"
+  ?>
+  </ul>
 
 
 </body>
