@@ -108,11 +108,11 @@
   $muutuja2 = "70";
   echo ($muutuja * $muutuja2);
   echo "<br>";
-  abs(-300);
+  echo abs(-300);
 ?>
 <br>
 
-
+<h2>Numbri funktsioonid</h2>
 <?php
     // Viis ruudus:
     echo pow(5, 2);
@@ -135,6 +135,75 @@
     echo rand(7, 22);
 ?>
 
+<h1>Numbrite kasvatamine ja kahandamine</h1>
+<?php
+    $sample_nr = 45;
+?>
 
+<?php
+  $sample_nr = 45;
+  $sample_nr = $sample_nr + 5;
+  echo $sample_nr;
+?>
+
+<?php
+    $sample_nr2 = 45;
+    $sample_nr2 += 5;
+    echo $sample_nr2;
+?>
+
+<?php
+    $sample_nr2 = 45;
+    $sample_nr2 += 5;
+    echo $sample_nr2;
+?>
+
+<?php
+    $sample_nr3 = 45;
+    $sample_nr3 *= 5;
+    echo $sample_nr3;
+
+    $sample_nr2 = 45;
+    $sample_nr2 /= 5;
+    echo $sample_nr2;
+?>
+<?php
+    $sample_nr2 = 45;
+    $sample_nr2 += 5;
+    echo $sample_nr2;
+?>
+
+<?php
+    $sample_nr2 = 45;
+    $sample_nr2 += 5;
+    echo $sample_nr2;
+?>
+
+<?php
+    $sample_nr3 = 45;
+    $sample_nr3 *= 5;
+    echo $sample_nr3;
+
+    $sample_nr2 = 45;
+    $sample_nr2 /= 5;
+    echo $sample_nr2;
+?>
+
+<h2>Numbri ja stringi liitmine</h2>
+<?php
+    echo 5 . " teksapüksid";
+?>
+
+<?php
+    echo 5 + " teksapüksid";
+?>
+
+<?php
+    echo 5 + "5";
+?>
+
+<?php
+    echo 5 + "7 teksapüksi";
+?>
 </body>
 </html> 
