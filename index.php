@@ -102,6 +102,39 @@
 
 <?php echo "A" . trim(" B C D E") . "F"; ?>
 
+<h1>Täisarvud</h1>
+<?php 
+  $muutuja = "50";
+  $muutuja2 = "70";
+  echo ($muutuja * $muutuja2);
+  echo "<br>";
+  abs(-300);
+?>
+<br>
+
+
+<?php
+    // Viis ruudus:
+    echo pow(5, 2);
+    echo "<br>";
+    // Seitse kuubis:
+    echo pow(7, 3);
+    echo "<br>";
+    // Kolm astmel seitse:
+    echo pow(3, 7);
+?>
+<br>
+<?php
+    // Ruutjuur 25-st:
+    echo sqrt(25);
+?>
+<?php
+    // Suvaline number
+    echo rand();
+    // Suvaline number vahemikus 7 - 22:
+    echo rand(7, 22);
+?>
+
 
 </body>
 </html> 
